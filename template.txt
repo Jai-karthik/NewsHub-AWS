@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052) -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/icon.png">
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167979114-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-167979114-1');
+	</script>
+		
+    <title>#PageTitle#</title>
+
+    <link rel="canonical" href="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./resources/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./resources/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="covid.html">Covid-19</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="business.html">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="entertainment.html">Entertainment</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="science.html">Sci-Tech & Health</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="sports.html">Sports</a>
+            </li>
+			
+          </ul>
+         
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+	  
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        </ol>
+         <div class="carousel-inner" style="max-height:300px;">
+		
+          <div class="carousel-item active" >
+            <img class="first-slide" src="./images/news2.jpg" alt="First slide" style="opacity: 0.4;max-height:300px;">
+            <div class="container">
+				
+              <div class="carousel-caption text-left" style="position:absolute;right:10%;bottom:275px;left:15%;z-index:0;padding-top:0px;padding-bottom:0px;color:#fff;text-align:center">
+                <h3>About</h3>
+					<p>Single platform provides live news around the world across various fields.</p>
+					<p><a class="btn btn-secondary" href="#" role="button" style="background-color:dodgerblue;">Scroll below</a></p>
+              </div>
+			</div>
+          </div>
+		  
+		  <div class="carousel-item">
+				<img class="second-slide" src="./images/corona.jpg" alt="Second slide" style="opacity: 0.4;max-height:300px;">
+				<div class="container">
+				  <div class="carousel-caption text-left" style="position:absolute;right:10%;bottom:275px;left:15%;z-index:0;padding-top:0px;padding-bottom:0px;color:#fff;text-align:center">
+					<h3>Covid-19 India Dashboard </h3>
+                <p>The dashboard aggregates the patient details of India from covid19india.org.</p>
+                <p><a class="btn btn-secondary" href="https://www.covid19india.org/" role="button" style="background-color:dodgerblue; target="_blank">covid19india.org</a></p>
+					
+				  </div>
+		</div>
+          </div>
+          
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing" >
+
+        <!-- Three columns of text below the carousel -->
+         <!-- Three columns of text below the carousel -->
+        <div class="row">
+          
+		  #ArticleNavigation#
+		  
+        </div><!-- /.row -->
+		<div>
+			<p><span  style="color:red;">Refreshed on: #LastRefresh#</span> | <span  style="font-size:8pt">Next Refresh on: #NextRefresh#</span></p>
+			
+			</div>
+
+        <!-- START THE FEATURETTES -->
+
+       
+
+
+			#ArticleDetails#
+
+
+				<hr class="featurette-divider">
+	
+
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+	<p class="float-right">Developed by <a href="http://www.linkedin.com/in/jai-karthik-9693jk" target= "_blank">JK</a> |<a href="#">Back to top</a></p>     
+        <p>Powered by <a href="http://newsapi.org" target ="_blank">NewsAPI.org</p>
+      </footer>
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="./resources/jquery-3.4.1.slim.min.js"><\/script>')</script>
+    <script src="./resources/popper.min.js"></script>
+    <script src="resources/bootstrap.bundle.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="./resources/holder.min.js"></script>
+  
+
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>
